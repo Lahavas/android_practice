@@ -8,7 +8,7 @@ GeoQuiz는 지역에 대한 퀴즈 게임 프로젝트입니다.
 * Activity and Layout
 * Explicit Intent
 
-### 챕터 별 정리
+### 목차
 
 #### Ch01 Your First Android Application
 
