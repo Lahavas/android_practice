@@ -59,3 +59,14 @@ GeoQuiz는 지역에 대한 퀴즈 게임 프로젝트입니다.
 * The Activity Lifecycle, Revisited
 * For the More Curious: Current State of Activity Cleanup
 * For the More Curious: Log Levels and Methods
+
+#### Ch04 Debugging Android Apps
+
+* Exceptions and Stack Traces
+    * Diagnosing misbehaviors
+    * Logging stack traces
+    * Setting breakpoints
+    * Using exception breakpoints
+* Android-Specific Debugging
+    * Using Android Lint
+        * Issues with the R class
