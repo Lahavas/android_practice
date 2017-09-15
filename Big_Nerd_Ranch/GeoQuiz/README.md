@@ -88,3 +88,14 @@ GeoQuiz는 지역에 대한 퀴즈 게임 프로젝트입니다.
         * Sending back an intent
         * Handling a result
 * How Android Sees Your Activities
+
+#### Ch06 Android SDK Versions and Compatibility
+
+* Android SDK Versions
+    * Compatibility and Android Programming
+        * A sane Minimum
+        * Minimum SDK version
+        * Target SDK version
+        * Compile SDK version
+        * Adding code from layer APIs safely
+* Using the Android Developer Documentation
