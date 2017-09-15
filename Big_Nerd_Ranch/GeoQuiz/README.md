@@ -44,3 +44,18 @@ GeoQuiz는 지역에 대한 퀴즈 게임 프로젝트입니다.
 * Adding an Icon
     * Adding resources to a project
     * Referencing resources in XML
+
+#### Ch03 The Activity Lifecycle
+
+* Logging the Activity Lifecycle
+    * Making log messages
+    * Using Logcat
+    * Exploring the activity lifecycle by example
+* Rotation and the Activity Lifecycle
+    * Device configurations and alternative resources
+        * Creating a landscape layout
+* Saving Data Across Rotation
+    * Overriding onSaveInstanceState(Bundle)
+* The Activity Lifecycle, Revisited
+* For the More Curious: Current State of Activity Cleanup
+* For the More Curious: Log Levels and Methods
