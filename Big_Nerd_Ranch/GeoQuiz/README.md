@@ -70,3 +70,21 @@ GeoQuiz는 지역에 대한 퀴즈 게임 프로젝트입니다.
 * Android-Specific Debugging
     * Using Android Lint
         * Issues with the R class
+
+#### Ch05 Your Second Activity
+
+* Setting Up a Second Activity
+    * Creating a new activity
+    * A new activity subclass
+    * Declaring activities in the manifest
+    * Adding a cheat button to QuizActivity
+* Starting an Activity
+    * Communicating with intents
+        * Explicit and implicit intents
+* Passing Data Between Activities
+    * Using intent extras
+    * Getting a result back from a child activity
+        * Setting a result
+        * Sending back an intent
+        * Handling a result
+* How Android Sees Your Activities
