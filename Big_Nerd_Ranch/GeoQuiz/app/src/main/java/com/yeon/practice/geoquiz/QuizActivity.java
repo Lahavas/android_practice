@@ -88,6 +88,7 @@ public class QuizActivity extends AppCompatActivity {
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        Log.i(TAG, "onActivityResult() called");
         if (resultCode != Activity.RESULT_OK) {
             return;
         }
