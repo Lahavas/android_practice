@@ -8,9 +8,9 @@ GeoQuiz는 지역에 대한 퀴즈 게임 프로젝트입니다.
 * Activity and Layout
 * Explicit Intent
 
-### 목차
+--------------------------------------------------------
 
-#### Ch01 Your First Android Application
+### Ch01 Your First Android Application
 
 * App Basics
 * Creating an Android Project
@@ -30,7 +30,9 @@ GeoQuiz는 지역에 대한 퀴즈 게임 프로젝트입니다.
 * For the More Curious: Android Build Process
     * Android build tools
 
-#### Ch02 Android and Model-View-Controller
+--------------------------------------------------------
+
+### Ch02 Android and Model-View-Controller
 
 * Creating a New Class
     * Generating getters and setters
@@ -45,7 +47,9 @@ GeoQuiz는 지역에 대한 퀴즈 게임 프로젝트입니다.
     * Adding resources to a project
     * Referencing resources in XML
 
-#### Ch03 The Activity Lifecycle
+--------------------------------------------------------
+
+### Ch03 The Activity Lifecycle
 
 * Logging the Activity Lifecycle
     * Making log messages
@@ -60,7 +64,9 @@ GeoQuiz는 지역에 대한 퀴즈 게임 프로젝트입니다.
 * For the More Curious: Current State of Activity Cleanup
 * For the More Curious: Log Levels and Methods
 
-#### Ch04 Debugging Android Apps
+--------------------------------------------------------
+
+### Ch04 Debugging Android Apps
 
 * Exceptions and Stack Traces
     * Diagnosing misbehaviors
@@ -71,7 +77,9 @@ GeoQuiz는 지역에 대한 퀴즈 게임 프로젝트입니다.
     * Using Android Lint
         * Issues with the R class
 
-#### Ch05 Your Second Activity
+--------------------------------------------------------
+
+### Ch05 Your Second Activity
 
 * Setting Up a Second Activity
     * Creating a new activity
@@ -89,7 +97,9 @@ GeoQuiz는 지역에 대한 퀴즈 게임 프로젝트입니다.
         * Handling a result
 * How Android Sees Your Activities
 
-#### Ch06 Android SDK Versions and Compatibility
+--------------------------------------------------------
+
+### Ch06 Android SDK Versions and Compatibility
 
 * Android SDK Versions
     * Compatibility and Android Programming
