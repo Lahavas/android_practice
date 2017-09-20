@@ -5,4 +5,3 @@ Android Practice
 ------------------------------------
   
 #### [Big Nerd Ranch 예제 프로젝트](./Big_Nerd_Ranch)
-#### [Android API Guide](./Android_API_Guide)
