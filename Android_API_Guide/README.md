@@ -87,3 +87,156 @@ Android API Guide
     * \<uses-permission>
     * \<uses-permission-sdk-23>
     * \<uses-sdk>
+* User Interface
+    * Overview
+    * Layouts
+        * Linear Layout
+        * Relative Layout
+        * Recycler View
+        * List View
+        * Grid View
+    * Look and Feel
+        * Downloadable Fonts
+        * Fonts in XML
+        * Emoji Compatibility
+        * Autosizing TextView
+        * Styles and Themes
+    * Input Controls
+        * Buttons
+        * Checkboxs
+        * Radio Buttons
+        * Toggle Buttons
+        * Spinners
+        * Pickers
+    * Input Events
+    * Menus
+    * Settings
+    * Dialogs
+    * Notifications
+    * Toasts
+    * Tooltips
+    * Adaptive Icons
+    * App Shortcuts
+    * Search
+        * Creating a Search Interface
+        * Adding Recent Query Suggestions
+        * Adding Custom Suggestions
+        * Searchable Configuration
+    * Multi-Window Support
+    * Drag and Drop
+    * Accessibility
+        * Making Apps More Accessible
+        * Using Node Tree Debugging
+        * Building Accessibility Services
+        * Building Accessible Custom Views
+    * Styles and Themes
+    * Custom Components
+* Animation and Graphics
+    * Overview
+    * Property Animation
+    * View Animation
+    * Drawable Animation
+    * Canvas and Drawables
+        * Vector Drawable
+    * Physics-based Animations
+        * Spring Animation
+        * Fling Animation
+    * OpenGL ES
+    * Hardware Acceleration
+* Computation
+    * RenderScript
+    * Advanced RenderScript
+    * Runtime API Reference
+        * Numerical Types
+        * Object Types
+        * Conversion Functions
+        * Mathematical Constants and Functions
+        * Vector Math Functions
+        * Matrix Functions
+        * Quaternion Functions
+        * Atomic Update Functions
+        * Time Functions and Types
+        * Allocation Data Access Functions
+        * Object Characteristics Functions
+        * Kernel Invocation Functions and Types
+        * Input/Output Functions
+        * Debugging Functions
+        * Graphics Functions and Types
+        * Index
+* Media Apps
+    * Media Apps Overview
+    * Working with a Media Session
+    * Building an Audio App
+        * Building a Media Browser Service
+        * Building a Media Browser Client
+        * Media Session Callbacks
+    * Building a Video App
+        * Building a Video Player Activity
+        * Media Session Callbacks
+    * Responding to Media Buttons
+    * Handling Changes in Audio Output
+    * Managing Audio Focus
+    * Interacting with Google Assistant
+* Media and Camera
+    * Supported Media Formats
+    * MediaPlayer
+    * MediaRecoder
+    * ExoPlayer
+    * Controller Amplitude with VolumeShaper
+    * Media Routing
+        * MediaRouter API
+        * MediaRouteProvider API
+    * Camera API
+* Location and Sensors
+    * Location and Maps
+    * Location Strategies
+    * Sensors Overview
+    * Motion Sensors
+    * Position Sensors
+    * Environment Sensers
+    * Raw GNSS Measurements
+* Connectivity
+    * Bluetooth
+        * Bluetooth Low Energy
+    * NFC
+        * NFC Basics
+        * Advanced NFC
+        * Host-based Card Emulation
+    * Telecom
+        * Self-Managed ConnectionServices
+    * Wi-Fi P2P
+    * Wi-Fi Aware
+    * Companion Device Pairing
+    * USB
+        * Accessory
+        * Host
+    * SIP
+* Text and Input
+    * Autofill Framework
+    * Copy and Paste
+    * Creating an IME
+        * Image Keyboard
+    * Spelling Checker
+* Data Storage
+    * Storage Options
+    * Data Backup
+        * Account Transfer API
+        * Auto Backup
+        * Key/Value Backup
+        * Testing Backup and Restore
+    * App Install Location
+* Administration
+    * Device Policies
+* Web Apps
+    * Supporting Different Screens in Web Apps
+    * Building Web Apps in WebView
+    * Managing WebViews
+    * Migrating to WebView in Android 4.4
+    * Debugging Web Apps
+    * Best Practices for Web Apps
+* Best Practices
+    * Supporting Multiple Screens
+        * Distributing to Specific Screens
+        * Screen Compatibility Mode
+    * Designing for Seamlessness
+    * Supporting Tablets and Handsets
