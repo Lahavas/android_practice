@@ -117,6 +117,35 @@ GeoQuiz는 지역에 대한 퀴즈 게임 프로젝트입니다.
 * For the More Curious: Current State of Activity Cleanup
 * For the More Curious: Log Levels and Methods
 
+#### 주요 개념
+
+* **onCreate(Bundle)**
+    * **setContentView(int)**
+        * Inflating widgets and putting them on screen
+    * Getting references to inflated widgets
+    * Setting listeners on widgets to handle user interaction
+    * Connecting to external model data
+  
+* **Device Configuration**
+    * A set of characteristics that describe the *current state* of an individual device
+        * Screen orientation, Screen density, Screen size, Keyboard type, Dock mode, Language, and more
+    * **Runtime Configuration Change**
+        * onPause() -> onStop() -> **onDestroy()** -> onCreate(Bundle) -> onStart() -> onResume()
+    * Configuration Qualifier
+        * Configuration qualifiers on *res* subdirectories are how Android identifies which resources best match the current device configuration
+    * **onSaveInstanceState(Bundle)**
+        * This method is called before onStop()
+        * **Bundle** object
+            * a structure that maps string keys to values of certain limited types
+  
+#### 참고 자료
+
+> [Activity Lifecycle 관련 자료](https://developer.android.com/guide/components/activities/activity-lifecycle.html)  
+> [Handling Configuration Changes 관련 자료](https://developer.android.com/guide/topics/resources/runtime-changes.html)  
+> [Configuration Qualifier 관련 자료](https://developer.android.com/guide/topics/resources/providing-resources.html)  
+> [Bundle 관련 자료](https://developer.android.com/guide/components/activities/parcelables-and-bundles.html)  
+> [Log 관련 자료](https://developer.android.com/reference/android/util/Log.html)  
+
 --------------------------------------------------------
 
 ### Ch04 Debugging Android Apps
