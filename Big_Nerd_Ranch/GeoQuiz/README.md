@@ -179,6 +179,55 @@ GeoQuiz는 지역에 대한 퀴즈 게임 프로젝트입니다.
         * Handling a result
 * How Android Sees Your Activities
 
+#### 주요 개념
+
+* manifest
+    * An XML file containing *metadata* that describes your application to the Android OS
+  
+* **Intent**
+    * An object that a *component* can use to communicate with the OS
+    * *public Intent(Context packageContext, Class<?> cls)*
+        * **Class**
+            * The activity class that the ActivityManager should start
+        * **Context**
+            * Application package the activity class can be find in
+    * **Explicit Intent**
+        * To start *activities* within your application
+    * **Implicit Intent**
+        * To start an activities in *another application*
+    * **Extra**
+        * Extras are *arbitary data* that the calling activity can include with an intent
+            * key-value pair
+        * **Intent.putExtra(...)**
+        * **Activity.getIntent(...)**
+  
+* **startActivity(Intent)**
+    * When an activity calls this method, this call is sent to the part of OS called by **ActivityManager**
+        * The ActivityManager creates the **Activity** instance
+        * This calls its **onCreate(Bundle)** method
+    * Before starting the activity
+        * The ActivityManager checks the package’s manifest for a declaration with the same name as the specified Class
+            * *ActivityNotFoundException*
+  
+* **startActivityForResult(Intent, int)**
+    * *requestCode*
+    * *resultCode*
+        * **Activity.setResult(int, Intent)**
+  
+* How Android Sees Your Activities
+    * OS starts the application's *launcher activity*
+    * Launcher Activity Status
+        * the manifest by the *intent-filter* element
+        * in a **Back Stack**
+            * the ActivityManager maintains a *back stack*
+            * Activities for all applications share the back stack
+  
+#### 참고 자료
+
+> [App Manifest 관련 자료](https://developer.android.com/guide/topics/manifest/manifest-intro.html)  
+> [Navigating Between Activities 관련 자료](https://developer.android.com/guide/components/activities/activity-lifecycle.html)  
+> [Intent 관련 자료](https://developer.android.com/guide/components/intents-filters.html)  
+  
 --------------------------------------------------------
 
 ### Ch06 Android SDK Versions and Compatibility
