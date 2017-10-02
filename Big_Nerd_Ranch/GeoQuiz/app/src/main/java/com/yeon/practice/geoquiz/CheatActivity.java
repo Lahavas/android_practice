@@ -20,10 +20,10 @@ public class CheatActivity extends AppCompatActivity {
     private static final String EXTRA_ANSWER_SHOWN =
             "com.yeon.practice.geoquiz.answer_shown";
 
-    private boolean mAnswerIsTrue;
-
     private TextView mAnswerTextView;
     private Button mShowAnswerButton;
+
+    private boolean mAnswerIsTrue;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
