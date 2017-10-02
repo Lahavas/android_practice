@@ -240,3 +240,16 @@ GeoQuiz는 지역에 대한 퀴즈 게임 프로젝트입니다.
         * Compile SDK version
         * Adding code from layer APIs safely
 * Using the Android Developer Documentation
+
+#### 주요 개념
+
+* *build.gradle* file
+    * compileSdkVersion
+        * not used to update the AndroidManifest.xml file
+    * minSdkVersion
+    * targetSdkVersion
+  
+#### 참고 자료
+
+> [Android Build Version 관련 자료](https://developer.android.com/reference/android/os/Build.VERSION.html)  
+> [Animation 관련 자료](https://developer.android.com/guide/topics/graphics/overview.html)  
