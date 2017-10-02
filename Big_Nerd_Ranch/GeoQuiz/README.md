@@ -8,6 +8,20 @@ GeoQuiz는 지역에 대한 퀴즈 게임 프로젝트입니다.
 * Activity and Layout
 * Explicit Intent
 
+#### 도전 과제
+
+* Customizing the Toast
+* Add a Listener to the TextView
+* Add a Previous Button
+* From Button to ImageButton
+* Preventing Repeat Answers
+* Graded Quiz
+* Exploring the Layout Inspector
+* Exploring Allocation Tracking
+* Closing Loopholes for Cheaters
+* Reporting the Build Version
+* Limited Cheats
+
 --------------------------------------------------------
 
 ### Ch01 Your First Android Application
