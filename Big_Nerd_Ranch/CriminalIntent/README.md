@@ -96,6 +96,5 @@ CriminalIntent는 'Office Crimes'를 기록하기 위한 프로젝트입니다.
 > [TextWatcher 관련 자료](https://developer.android.com/reference/android/text/TextWatcher.html)  
 > [Checkbox 관련 자료](https://developer.android.com/reference/android/widget/CheckBox.html)  
 > [Fluent Interface 관련 자료](https://en.wikipedia.org/wiki/Fluent_interface)  
-> 
 
 --------------------------------------------------------
