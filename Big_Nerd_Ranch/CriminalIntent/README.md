@@ -3,6 +3,10 @@
 
 CriminalIntent는 'Office Crimes'를 기록하기 위한 프로젝트입니다.  
 
+#### 도전 과제
+
+* [ ] RecyclerView ViewTypes
+
 --------------------------------------------------------
 
 ### Ch07 UI Fragments and the Fragment Manager
@@ -96,5 +100,36 @@ CriminalIntent는 'Office Crimes'를 기록하기 위한 프로젝트입니다.
 > [TextWatcher 관련 자료](https://developer.android.com/reference/android/text/TextWatcher.html)  
 > [Checkbox 관련 자료](https://developer.android.com/reference/android/widget/CheckBox.html)  
 > [Fluent Interface 관련 자료](https://en.wikipedia.org/wiki/Fluent_interface)  
+
+--------------------------------------------------------
+
+### Ch08 Displaying Lists with RecyclerView
+
+* Updating CriminalIntent's Model Layer
+    * Singletons and centralized data storage
+* An Abstract Activity for Hosting a Fragment
+    * A generic fragment-hosting layout
+    * An abstract Activity class
+        * Using an abstract class
+        * Creating the new controllers
+        * Declaring CrimeListActivity
+* RecyclerView, Adapter, and ViewHolder
+    * ViewHolders and Adapters
+        * Adapters
+    * Using a RecyclerView
+    * A view to display
+* Binding List Items
+* Responding to Presses
+* For the More Curious: ListView and GridView
+* For the More Curious: Singletons
+
+#### 주요 개념
+
+* 
+    * 
+
+#### 참고 자료
+
+>     
 
 --------------------------------------------------------
