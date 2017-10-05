@@ -38,9 +38,32 @@ CriminalIntent는 'Office Crimes'를 기록하기 위한 프로젝트입니다.
     * UI Fragment
         * *UI Flexibility*
             * The ability to compose and recompose an activity's view at runtime
-    * Fragment Lifecycle
-        * Fragment lifecycle methods are called by the hosting activity
-            * Fragment lifecycle methods must be *public*
+    * Hosting a UI Fragment
+        * add the fragment
+            * to the activity's layout
+                * *layout fragment*
+            * **in the activity's code**
+  
+* **FragmentManager**
+    * Managing your fragments
+    * Adding their views to the activity's view hierarchy
+    * Handling two things
+        * A list of fragments
+        * A back stack of **fragment transactions**
+    * When an activity is destroyed
+        * **FragmentManager** saves out its list of fragments
+  
+* **Fragment Transaction**
+    * To add, remove, attach, detach, or replace fragments in the fragment list
+    * **add(...)**
+        * A container view ID
+        * the newly created Fragment
+  
+* Fragment Lifecycle
+    * Fragment lifecycle methods are called by the hosting activity
+        * Fragment lifecycle methods must be *public*
+    * Called when you add the fragment to the **FragmentManager**
+        * **onAttach(Context)**
         * **onCreate(Bundle)**
             * has a **Bundle**
                 * **onSaveInstanceState(Bundle)**
@@ -54,24 +77,8 @@ CriminalIntent는 'Office Crimes'를 기록하기 위한 프로젝트입니다.
                     * Need to configure the widgets properly
             * Return the inflated View to the *hosting activity*
             * The place to *wiring up some widgets*
-    * Hosting a UI Fragment
-        * add the fragment
-            * to the activity's layout
-                * *layout fragment*
-            * **in the activity's code**
-  
-* **FragmentManager**
-    * Managing your fragments
-    * Adding their views to the activity's view hierarchy
-    * Handling two things
-        * A list of fragments
-        * A back stack of **fragment transactions**
-
-* **Fragment Transaction**
-    * To add, remove, attach, detach, or replace fragments in the fragment list
-    * **add(...)**
-        * A container view ID
-        * the newly created Fragment
+    * Called after the hosting activity's **onCreate(Bundle)** method has executed
+        * **onActivityCreated(Bundle)**
   
 * Maven
     * Dependency Management Tool
