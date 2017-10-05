@@ -13,10 +13,6 @@ import android.widget.CheckBox;
 import android.widget.CompoundButton;
 import android.widget.EditText;
 
-/**
- * Created by Jaeho on 2017. 10. 5..
- */
-
 public class CrimeFragment extends Fragment {
 
     private Crime mCrime;

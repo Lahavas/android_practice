@@ -125,11 +125,13 @@ CriminalIntent는 'Office Crimes'를 기록하기 위한 프로젝트입니다.
 
 #### 주요 개념
 
-* 
-    * 
-
+* Singleton
+    * A class that allows only one instance of itself to be created
+    * A singleton exists as long as the application stays in memory
+  
 #### 참고 자료
 
->     
+> [Context 관련 자료](https://developer.android.com/reference/android/content/Context.html)  
+>    
 
 --------------------------------------------------------

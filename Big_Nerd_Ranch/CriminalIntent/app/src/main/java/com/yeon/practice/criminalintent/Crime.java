@@ -3,10 +3,6 @@ package com.yeon.practice.criminalintent;
 import java.util.Date;
 import java.util.UUID;
 
-/**
- * Created by Jaeho on 2017. 10. 5..
- */
-
 public class Crime {
 
     private UUID mId;
