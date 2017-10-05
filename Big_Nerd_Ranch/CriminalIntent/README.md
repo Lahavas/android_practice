@@ -129,9 +129,37 @@ CriminalIntent는 'Office Crimes'를 기록하기 위한 프로젝트입니다.
     * A class that allows only one instance of itself to be created
     * A singleton exists as long as the application stays in memory
   
+* **List<E>**
+    * An interface that supports an ordered list of objects of a given type
+  
+* **RecyclerView**
+    * A subview of ViewGroup
+    * Displaying a list of child View objects
+    * **ViewHolder**
+        * It holds on to a **View**
+        * *itemView*
+            * It holds a reference to the entire View you passed into **super(view)**
+    * **Adapter**
+        * A controller object that sits between the **RecyclerView** and *the data set* that the RecyclerView should display
+            * Creating the necessary **ViewHolder**s
+            * binding **ViewHolder**s to data from the model layer
+  
+* RecyclerView-Adapter conversation
+    * **getItemCount()**
+        * The RecyclerView asks how many objects are in the list
+    * **onCreateViewHolder(ViewGroup, int)**
+        * To create a new ViewHolder
+    * **onBindViewHolder(ViewHolder, int)**
+        * The adapter will look up the model data for that position
+        * and *bind* it to the ViewHolder's View
+    * Once enough ViewHolders have been created, RecyclerView stops calling **onCreateViewHolder(...)**
+  
 #### 참고 자료
 
 > [Context 관련 자료](https://developer.android.com/reference/android/content/Context.html)  
->    
+> [RecyclerView 관련 자료](https://developer.android.com/reference/android/support/v7/widget/RecyclerView.html)  
+> [RecyclerView Practice 관련 자료](https://developer.android.com/training/material/lists-cards.html)  
+> [LayoutManager 관련 자료](https://developer.android.com/reference/android/support/v7/widget/RecyclerView.LayoutManager.html)  
+> [ViewHolder Design Pattern 관련 자료](https://developer.android.com/training/improving-layouts/smooth-scrolling.html#ViewHolder)  
 
 --------------------------------------------------------
