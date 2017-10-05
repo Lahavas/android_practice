@@ -40,11 +40,38 @@ CriminalIntent는 'Office Crimes'를 기록하기 위한 프로젝트입니다.
             * The ability to compose and recompose an activity's view at runtime
     * Fragment Lifecycle
         * Fragment lifecycle methods are called by the hosting activity
+            * Fragment lifecycle methods must be *public*
+        * **onCreate(Bundle)**
+            * has a **Bundle**
+                * **onSaveInstanceState(Bundle)**
+            * Configure the fragment instance
+        * **onCreateView(...)**
+            * Inflate the layout for the fragment's view
+                * LayoutInflater
+                    * **LayoutInflater.inflate(...)**
+                        * Passing in the layout's resource ID
+                * ViewGroup
+                    * Need to configure the widgets properly
+            * Return the inflated View to the *hosting activity*
+            * The place to *wiring up some widgets*
     * Hosting a UI Fragment
         * add the fragment
             * to the activity's layout
                 * *layout fragment*
             * **in the activity's code**
+  
+* **FragmentManager**
+    * Managing your fragments
+    * Adding their views to the activity's view hierarchy
+    * Handling two things
+        * A list of fragments
+        * A back stack of **fragment transactions**
+
+* **Fragment Transaction**
+    * To add, remove, attach, detach, or replace fragments in the fragment list
+    * **add(...)**
+        * A container view ID
+        * the newly created Fragment
   
 * Maven
     * Dependency Management Tool
@@ -58,6 +85,10 @@ CriminalIntent는 'Office Crimes'를 기록하기 위한 프로젝트입니다.
 > [App Build Dependencies 관련 자료](https://developer.android.com/studio/build/dependencies.html)  
 > [UUID 관련 자료](https://developer.android.com/reference/java/util/UUID.html)  
 > [Date 관련 자료](https://developer.android.com/reference/java/util/Date.html)  
+> [Style 관련 자료](https://developer.android.com/guide/topics/ui/themes.html?)  
+> [TextWatcher 관련 자료](https://developer.android.com/reference/android/text/TextWatcher.html)  
+> [Checkbox 관련 자료](https://developer.android.com/reference/android/widget/CheckBox.html)  
+> [Fluent Interface 관련 자료](https://en.wikipedia.org/wiki/Fluent_interface)  
 > 
-  
+
 --------------------------------------------------------
