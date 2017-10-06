@@ -294,11 +294,33 @@ CriminalIntent는 'Office Crimes'를 기록하기 위한 프로젝트입니다.
 
 #### 주요 개념
 
-* 
-    * 
+* **ViewPager**
+    * To your UI lets users navigate between list items by swiping across the screen to "page" forward or backward
+    * **PagerAdapter**
+        * **FragmentStatePagerAdapter**
+            * Unneeded fragment is destroyed
+                * A transaction is committed to remove the fragment from your activity's FragmentManager
+                    * **remove(Fragment)**
+            * **getCount()**
+            * **getItem(int)**
+        * **FragmentPagerAdapter**
+            * When your fragment is no longer needed, FragmentPagerAdapter calls **detach(Fragment)** on the transaction
+  
+* To implement the raw **PagerAdapter** interface
+    * To host normal **View** objects in a ViewPager
+    * **PagerAdapter.instantiateItem(ViewGroup, int)**
+        * To create an item view for a given position
+        * To add it to a container ViewGroup
+    * **PagerAdapter.destroyItem(ViewGroup, int, Object)**
+        * To destroy that item
+    * **PagerAdapter.isViewFromObject(View, Object)**
+        * To figure out which item's view it is
+        * The Object parameter is an object received from a call to **instantiateItem(...)**
   
 #### 참고 자료
 
-> 
+> [ViewPager 관련 자료](https://developer.android.com/reference/android/support/v4/view/ViewPager.html)  
+> [ViewPager Practice 관련 자료](https://developer.android.com/training/animation/screen-slide.html)  
+> [PagerAdapter 관련 자료](https://developer.android.com/reference/android/support/v4/view/PagerAdapter.html)  
 
 --------------------------------------------------------
