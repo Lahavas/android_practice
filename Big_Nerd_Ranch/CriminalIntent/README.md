@@ -185,11 +185,53 @@ CriminalIntent는 'Office Crimes'를 기록하기 위한 프로젝트입니다.
 
 #### 주요 개념
 
-* 
-    * 
+* **ConstraintLayout**
+    * View Size Setting
+        * Fixed
+            * Xdp
+        * Wrap Content
+            * wrap_content
+        * Any Size
+            * 0dp
+    * **Constraint Handle**
+  
+* **Layout Attribute**
+    * *density-independent dimension unit*
+        * px (pixel)
+        * **dp** (density-independent pixel)
+            * One dp is always 1/160th of an inch on a device's screen
+            * When your display is a higher density, dp will expand to fill a larger number of screen pixels
+        * **sp** (scale-independent pixel)
+            * sp is dp that also take into account the user's font size preference
+            * You will **almost always use sp** to set display text size
+        * pt, mn, in
+            * pt (point) : 1/72 of an inch
+            * mn (millimeters)
+            * in (inches)
+    * **Margin**
+        * *Layout Parameter*
+            * They determine *the distance between widgets*
+    * **Padding**
+        * Telling the widget *how much bigger than its contents* it should draw itself
+    * **Style**
+        * An XML resource that contains attributes that describe how a widget should look and behave
+        * in *res/values/*
+        * *@style/my_own_style*
+    * **Theme**
+        * A collection of styles
+        * *theme attribute reference*
+            * You tell Android's runtime resource manager
+                * "Go to the app's theme and find the attribute named '...'"
   
 #### 참고 자료
 
-> 
+> [Graphical Layout Tool 관련 자료](https://developer.android.com/studio/write/layout-editor.html)  
+> [ConstraintLayout 관련 자료](https://developer.android.com/reference/android/support/constraint/ConstraintLayout.html)  
+> [ConstraintLayout Practice 관련 자료](https://developer.android.com/training/constraint-layout/index.html)  
+> [Layout 관련 자료](https://developer.android.com/guide/topics/ui/declaring-layout.html)  
+> [Multiple Screen 관련 자료](https://developer.android.com/guide/practices/screens_support.html)  
+> [Density-Independent Pixel 관련 자료](https://developer.android.com/training/multiscreen/screendensities.html)  
+> [Style and Theme 관련 자료](https://developer.android.com/guide/topics/ui/look-and-feel/themes.html)  
+> [Android's Material Design Guideline](https://developer.android.com/design/index.html)  
 
 --------------------------------------------------------
