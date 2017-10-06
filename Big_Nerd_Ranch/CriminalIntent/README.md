@@ -269,11 +269,14 @@ CriminalIntent는 'Office Crimes'를 기록하기 위한 프로젝트입니다.
     * To Create the fragment instance
     * To Bundle up and set its arguments
   
-* 
+* Getting results with fragments
+    * Only activities have results
+        * While Fragment has its own **startActivityForResult(...)** and **onActivityResult(...)** methods
+        * It does not have any **setResult(...)** methods
+    * In Fragment, *getActivity().setResult(Activity.RESULT_OK, null);*
 
 #### 참고 자료
 
 > [Fragment 관련 자료](https://developer.android.com/guide/components/fragments.html)  
-> 
 
 --------------------------------------------------------
