@@ -9,6 +9,8 @@ CriminalIntent는 'Office Crimes'를 기록하기 위한 프로젝트입니다.
 * [ ] Formatting the Date
 * [ ] Efficient RecyclerView Reloading
 * [ ] Improving CrimeLab Performance
+* [ ] Restoring CrimeFragment's Margins
+* [ ] Adding First and Last Buuttons
 
 --------------------------------------------------------
 
@@ -278,5 +280,25 @@ CriminalIntent는 'Office Crimes'를 기록하기 위한 프로젝트입니다.
 #### 참고 자료
 
 > [Fragment 관련 자료](https://developer.android.com/guide/components/fragments.html)  
+
+--------------------------------------------------------
+
+### Ch11 Using ViewPager
+
+* Creating CrimePagerActivity
+    * ViewPager and PagerAdapter
+    * Integrating CrimePagerActivity
+* FragmentStatePagerAdapter vs FragmentPagerAdapter
+* For the More Curious: How ViewPager Really Works
+* For the More Curious: Laying Out Views in Code
+
+#### 주요 개념
+
+* 
+    * 
+  
+#### 참고 자료
+
+> 
 
 --------------------------------------------------------
