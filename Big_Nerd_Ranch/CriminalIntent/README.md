@@ -7,6 +7,8 @@ CriminalIntent는 'Office Crimes'를 기록하기 위한 프로젝트입니다.
 
 * [ ] RecyclerView ViewTypes
 * [ ] Formatting the Date
+* [ ] Efficient RecyclerView Reloading
+* [ ] Improving CrimeLab Performance
 
 --------------------------------------------------------
 
@@ -233,5 +235,45 @@ CriminalIntent는 'Office Crimes'를 기록하기 위한 프로젝트입니다.
 > [Density-Independent Pixel 관련 자료](https://developer.android.com/training/multiscreen/screendensities.html)  
 > [Style and Theme 관련 자료](https://developer.android.com/guide/topics/ui/look-and-feel/themes.html)  
 > [Android's Material Design Guideline](https://developer.android.com/design/index.html)  
+
+--------------------------------------------------------
+
+### Ch10 Using Fragment Arguments
+
+* Starting an Activity from a Fragment
+    * Putting an extra
+    * Retrieving an extra
+    * Updating CrimeFragment's view with Crime data
+    * The downside to direct retrieval
+* Fragment Arguments
+    * Attaching arguments to a fragment
+    * Retrieving arguments
+* Reloading the List
+* Getting Results with Fragments
+* For the More Curious: Why Use Fragment Arguments?
+
+#### 주요 개념
+
+* Two ways a fragment can access data in its activity's intent
+    * Direct retrieval
+        * use **getActivity()**
+        * Fragment is no longer a reusable building block
+            * It will *always be hosted* by an activity
+    * **Fragment Arguments**
+        * Every fragment instance can have a **Bundle** object attached to it
+            * *Argument Bundle*
+                * key-value pairs
+                * Each pair is known as an *argument*
+  
+* **newInstance()**
+    * To Create the fragment instance
+    * To Bundle up and set its arguments
+  
+* 
+
+#### 참고 자료
+
+> [Fragment 관련 자료](https://developer.android.com/guide/components/fragments.html)  
+> 
 
 --------------------------------------------------------
