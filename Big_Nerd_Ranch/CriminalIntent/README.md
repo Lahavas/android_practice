@@ -6,6 +6,7 @@ CriminalIntent는 'Office Crimes'를 기록하기 위한 프로젝트입니다.
 #### 도전 과제
 
 * [ ] RecyclerView ViewTypes
+* [ ] Formatting the Date
 
 --------------------------------------------------------
 
@@ -161,5 +162,34 @@ CriminalIntent는 'Office Crimes'를 기록하기 위한 프로젝트입니다.
 > [RecyclerView Practice 관련 자료](https://developer.android.com/training/material/lists-cards.html)  
 > [LayoutManager 관련 자료](https://developer.android.com/reference/android/support/v7/widget/RecyclerView.LayoutManager.html)  
 > [ViewHolder Design Pattern 관련 자료](https://developer.android.com/training/improving-layouts/smooth-scrolling.html#ViewHolder)  
+
+--------------------------------------------------------
+
+### Ch09 Creating User Interfaces with Layouts and Widgets
+
+* Using the Graphical Layout Tool
+* Introducing ConstraintLayout
+    * Using ConstraintLayout
+    * The graphical editor
+    * Making room
+    * Adding widgets
+    * ConstraintLayout's inner workings
+    * Editing properties
+    * Making list items dynamic
+* More on Layout Attributes
+    * Screen pixel densities and dp and sp
+    * Margins vs padding
+    * Styles, themes, and theme attributes
+    * Android's design guidelines
+* The Graphical Layout Tools and You
+
+#### 주요 개념
+
+* 
+    * 
+  
+#### 참고 자료
+
+> 
 
 --------------------------------------------------------
