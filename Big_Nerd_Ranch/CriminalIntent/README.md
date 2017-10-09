@@ -385,11 +385,41 @@ CriminalIntent는 'Office Crimes'를 기록하기 위한 프로젝트입니다.
 
 #### 주요 개념
 
-* 
-    * 
+* **AppCompat Library**
+    * AppCompat's themes
+        * Theme.AppCompat
+        * Theme.AppCompat.Light
+        * Theme.AppCompat.Light.DarkActionBar
+    * AppCompatActivity
+  
+* **ToolBar**
+    * **Menu**
+        * *action item* (or *menu item*)
+            * To perform an action on the current screen or on the app as a whole
+        * *showAsAction* property
+            * refers to thether the item will appear in the toolbar itself or in the *overflow menu*
+        * **onCreateOptionMenu(Menu, MenuInflater)**
+            * The **FragmentManager** is responsible for calling **Fragment.onCreateOptionsMenu(Menu, MenuInflater)**
+                * When the activity receives its **onCreateOptionsMenu(..)** callback from the OS
+        * **onOptionsItemSelected(MenuItem)**
+  
+* Navigation
+    * *temporal navigation*
+        * Using the Back button
+        * It takes you to where you were *last*
+    * *hierarchical navigation* (or *ancestral navigation*)
+        * Using the Up button
+        * It takes you up the *app hierarchy*
   
 #### 참고 자료
 
-> 
+> [ToolBar 관련 자료](https://developer.android.com/reference/android/support/v7/widget/Toolbar.html)  
+> [App Bar Practice 관련 자료](https://developer.android.com/training/appbar/setting-up.html)  
+> [AppCompat Library 관련 자료](https://developer.android.com/topic/libraries/support-library/packages.html)  
+> [Menus 관련 자료](https://developer.android.com/guide/topics/ui/menus.html)  
+> [Iconography 관련 자료](https://material.io/guidelines/style/icons.html)  
+> [Image Asset Studio 관련 자료](https://developer.android.com/studio/write/image-asset-studio.html)  
+> [Navigation with Back and Up 관련 자료](https://developer.android.com/design/patterns/navigation.html)  
+> [Back Stack 관련 자료](https://developer.android.com/guide/components/activities/tasks-and-back-stack.html)  
 
 --------------------------------------------------------
