@@ -11,6 +11,8 @@ CriminalIntent는 'Office Crimes'를 기록하기 위한 프로젝트입니다.
 * [ ] Improving CrimeLab Performance
 * [ ] Restoring CrimeFragment's Margins
 * [ ] Adding First and Last Buuttons
+* [ ] More Dialogs
+* [ ] A Responsive DialogFragment
 
 --------------------------------------------------------
 
@@ -322,5 +324,34 @@ CriminalIntent는 'Office Crimes'를 기록하기 위한 프로젝트입니다.
 > [ViewPager 관련 자료](https://developer.android.com/reference/android/support/v4/view/ViewPager.html)  
 > [ViewPager Practice 관련 자료](https://developer.android.com/training/animation/screen-slide.html)  
 > [PagerAdapter 관련 자료](https://developer.android.com/reference/android/support/v4/view/PagerAdapter.html)  
+
+--------------------------------------------------------
+
+### Ch12 Dialogs
+
+* Creating a DialogFragment
+    * Showing a DialogFragment
+    * Setting a dialog's contents
+* Passing Data Between Two Fragments
+    * Passing data to DatePickerFragment
+    * Returning data to CrimeFragment
+
+#### 주요 개념
+
+* **DialogFragment**
+    * for using an **AlertDialog**
+        * **AlertDialog.Builder** class
+    * Showing a DialogFragment
+        * Using a **FragmentManager**
+            * A transaction will automatically be created and committed
+            * **show(FragmentManager, String)**
+        * Using a **FragmentTransaction**
+            * For creating and committing that transaction
+            * **show(FragmentTransaction, String)**
+  
+#### 참고 자료
+
+> [Dialogs 관련 자료](https://developer.android.com/guide/topics/ui/dialogs.html)  
+> 
 
 --------------------------------------------------------
