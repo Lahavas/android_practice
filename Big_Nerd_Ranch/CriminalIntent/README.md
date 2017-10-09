@@ -349,9 +349,18 @@ CriminalIntent는 'Office Crimes'를 기록하기 위한 프로젝트입니다.
             * For creating and committing that transaction
             * **show(FragmentTransaction, String)**
   
+* Passing Data Between Two Fragments that are hosted by the same activity
+    * use *newInstance()* and *target fragment*
+        * **setTargetFragment(Fragment, int)**
+            * This method accepts the fragment that will be the target and a request code just like one you send in **startActivityForResult(...)**
+        * **Fragment.onActivityResult(...)**
+            * After the activity has received the call, the activity's **FragmentManager** then calls this method on the appropriate fragment
+            * When dealing with two fragments hosted by the same activity, you can borrow this method
+    * Other solution... see later chapter
+  
 #### 참고 자료
 
 > [Dialogs 관련 자료](https://developer.android.com/guide/topics/ui/dialogs.html)  
-> 
+> [Calendar 관련 자료](https://developer.android.com/reference/java/util/Calendar.html)  
 
 --------------------------------------------------------
