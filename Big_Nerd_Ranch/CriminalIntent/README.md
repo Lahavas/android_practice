@@ -13,6 +13,9 @@ CriminalIntent는 'Office Crimes'를 기록하기 위한 프로젝트입니다.
 * [ ] Adding First and Last Buuttons
 * [ ] More Dialogs
 * [ ] A Responsive DialogFragment
+* [ ] Deleting Crimes
+* [ ] Plural String Resources
+* [ ] An Empty View for the RecyclerView
 
 --------------------------------------------------------
 
@@ -362,5 +365,31 @@ CriminalIntent는 'Office Crimes'를 기록하기 위한 프로젝트입니다.
 
 > [Dialogs 관련 자료](https://developer.android.com/guide/topics/ui/dialogs.html)  
 > [Calendar 관련 자료](https://developer.android.com/reference/java/util/Calendar.html)  
+
+--------------------------------------------------------
+
+### Ch13 The Toolbar
+
+* AppCompat
+    * Using the AppCompat library
+* Menus
+    * Defining a menu in XML
+    * Creating the menu
+    * Responding to menu selections
+* Enabling Hierarchical Navigation
+    * How hierarchical navigation works
+* An Alternative Action Item
+    * Toggling the action item title
+    * "Just one more thing..."
+* For the More Curious: Action Bar vs Toolbar
+
+#### 주요 개념
+
+* 
+    * 
+  
+#### 참고 자료
+
+> 
 
 --------------------------------------------------------
