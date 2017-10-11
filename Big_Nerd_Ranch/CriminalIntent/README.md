@@ -16,6 +16,7 @@ CriminalIntent는 'Office Crimes'를 기록하기 위한 프로젝트입니다.
 * [ ] Deleting Crimes
 * [ ] Plural String Resources
 * [ ] An Empty View for the RecyclerView
+* [ ] Deleting Crimes
 
 --------------------------------------------------------
 
@@ -421,5 +422,52 @@ CriminalIntent는 'Office Crimes'를 기록하기 위한 프로젝트입니다.
 > [Image Asset Studio 관련 자료](https://developer.android.com/studio/write/image-asset-studio.html)  
 > [Navigation with Back and Up 관련 자료](https://developer.android.com/design/patterns/navigation.html)  
 > [Back Stack 관련 자료](https://developer.android.com/guide/components/activities/tasks-and-back-stack.html)  
+
+--------------------------------------------------------
+
+### Ch14 SQLite Databases
+
+* Defining a Schema
+* Building your Initial Database
+    * Exploring files using Android Device Monitor
+    * Debugging database issues
+* Gutting CrimeLab
+* Writing to the Database
+    * Using ContentValues
+    * Inserting and updating rows
+* Reading from the Database
+    * Using a CursorWrapper
+    * Converting to model objects
+        * Refreshing model data
+* For the More Curious: More Databases
+* For the More Curious: The Application Context
+
+#### 주요 개념
+
+* apploication's sandbox
+    * a child of the device's */data/data* directory named after the application package
+  
+* **SQLiteOpenHelper** class
+    * A class designed to get rid of the grunt work of opening a **SQLiteDatabase**
+  
+* **ContentValues**
+    * A key-value store class
+    * Designed to store the kinds of data SQLite can hold
+  
+* **CursorWrapper**
+    * To wrap a **Cursor** you received
+  
+* **The Application Context**
+    * If any of your activities exist, Android will have also created an *application* object
+        * It has a much longer lifetime than any one activity
+  
+#### 참고 자료
+
+> [SQLite Practice 관련 자료](https://developer.android.com/training/basics/data-storage/databases.html)  
+> [SQLiteOpenHelper 관련 자료](https://developer.android.com/reference/android/database/sqlite/SQLiteOpenHelper.html)  
+> [ContentValues 관련 자료](https://developer.android.com/reference/android/content/ContentValues.html)  
+> [Cursor 관련 자료](https://developer.android.com/reference/android/database/Cursor.html)  
+> [CursorWrapper 관련 자료](https://developer.android.com/reference/android/database/CursorWrapper.html)  
+> [Context 관련 자료](https://developer.android.com/reference/android/content/Context.html)  
 
 --------------------------------------------------------
