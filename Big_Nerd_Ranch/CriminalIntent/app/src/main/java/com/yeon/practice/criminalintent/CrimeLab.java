@@ -1,9 +1,12 @@
 package com.yeon.practice.criminalintent;
 
+import android.content.ContentValues;
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 
 import com.yeon.practice.criminalintent.database.CrimeBaseHelper;
+import com.yeon.practice.criminalintent.database.CrimeDbSchema;
+import com.yeon.practice.criminalintent.database.CrimeDbSchema.CrimeTable;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -32,7 +35,18 @@ public class CrimeLab {
     }
 
     public void addCrime(Crime crime) {
+        ContentValues values = getContentValues(crime);
 
+        mDatabase.insert(CrimeTable.NAME, null, values);
+    }
+
+    public void updateCrime(Crime crime) {
+        String uuidString = crime.getId().toString();
+        ContentValues values = getContentValues(crime);
+
+        mDatabase.update(CrimeTable.NAME, values,
+                CrimeTable.Cols.UUID + " = ?",
+                new String[] { uuidString });
     }
 
     public List<Crime> getCrimes() {
@@ -41,5 +55,16 @@ public class CrimeLab {
 
     public Crime getCrime(UUID id) {
         return null;
+    }
+
+    private static ContentValues getContentValues(Crime crime) {
+        ContentValues values = new ContentValues();
+
+        values.put(CrimeTable.Cols.UUID, crime.getId().toString());
+        values.put(CrimeTable.Cols.TITLE, crime.getTitle());
+        values.put(CrimeTable.Cols.DATE, crime.getDate().getTime());
+        values.put(CrimeTable.Cols.SOLVED, crime.isSolved() ? 1 : 0);
+
+        return values;
     }
 }
