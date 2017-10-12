@@ -17,6 +17,8 @@ CriminalIntent는 'Office Crimes'를 기록하기 위한 프로젝트입니다.
 * [ ] Plural String Resources
 * [ ] An Empty View for the RecyclerView
 * [ ] Deleting Crimes
+* [ ] ShareCompat
+* [ ] Another Implicit Intent
 
 --------------------------------------------------------
 
@@ -469,5 +471,32 @@ CriminalIntent는 'Office Crimes'를 기록하기 위한 프로젝트입니다.
 > [Cursor 관련 자료](https://developer.android.com/reference/android/database/Cursor.html)  
 > [CursorWrapper 관련 자료](https://developer.android.com/reference/android/database/CursorWrapper.html)  
 > [Context 관련 자료](https://developer.android.com/reference/android/content/Context.html)  
+
+--------------------------------------------------------
+
+### Ch15 Implicit Intents
+
+* Adding Buttons
+* Adding a Suspect to the Model Layer
+* Using a Format String
+* Using Implicit Intents
+    * Parts of an implicit intent
+    * Sending a crime report
+    * Asking Android for a contact
+    * Checking for responding activities
+
+#### 주요 개념
+
+* 
+    * 
+  
+#### 참고 자료
+
+> [Implicit Intent 관련 자료](https://developer.android.com/guide/components/intents-common.html)  
+> [Implicit Intent Practice 관련 자료](https://developer.android.com/training/basics/intents/sending.html)  
+> [String Resource 관련 자료](https://developer.android.com/guide/topics/resources/string-resource.html)  
+> [Formatter 관련 자료](https://developer.android.com/reference/java/util/Formatter.html)  
+> [Android DateFormat 관련 자료](https://developer.android.com/reference/android/text/format/DateFormat.html)  
+> 
 
 --------------------------------------------------------
