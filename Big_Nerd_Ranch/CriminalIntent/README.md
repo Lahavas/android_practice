@@ -483,12 +483,36 @@ CriminalIntent는 'Office Crimes'를 기록하기 위한 프로젝트입니다.
     * Parts of an implicit intent
     * Sending a crime report
     * Asking Android for a contact
+        * Getting the data from the contact list
+        * Contacts permissions
     * Checking for responding activities
 
 #### 주요 개념
 
-* 
-    * 
+* Intent
+    * an object that describes to the OS something that you want it to do
+    * *explicit intent*
+        * the activity that you want the OS to start
+    * *implicit intent*
+        * the job that you want done
+            * the *action* that you are trying to perform
+                * To describe *what* to do
+                    * Intent.ACTION_VIEW
+            * the location of any *data*
+                * the URL of a web page
+                * a URI to a file
+                * a *content URI* pointing to a record in a **ContentProvider**
+            * the *type* of data that the action is for
+                * a MIME type
+            * optional *categories*
+                * To describe *where*, *when*, or *how* you are trying to use an activity
+                    * android.intent.category.LAUNCHER
+  
+* PackageManager
+    * It knows about all the components installed on Android device, including all of its activities
+    * **resolveActivity(Intent, int)**
+        * To find an activity that matches the Intent you gave it
+        * It will return an instance of **ResolveInfo**
   
 #### 참고 자료
 
@@ -497,6 +521,8 @@ CriminalIntent는 'Office Crimes'를 기록하기 위한 프로젝트입니다.
 > [String Resource 관련 자료](https://developer.android.com/guide/topics/resources/string-resource.html)  
 > [Formatter 관련 자료](https://developer.android.com/reference/java/util/Formatter.html)  
 > [Android DateFormat 관련 자료](https://developer.android.com/reference/android/text/format/DateFormat.html)  
-> 
+> [Content Provider 관련 자료](https://developer.android.com/guide/topics/providers/content-providers.html)  
+> [Contacts Provider 관련 자료](https://developer.android.com/guide/topics/providers/contacts-provider.html)  
+> [PackageManager 관련 자료](https://developer.android.com/reference/android/content/pm/PackageManager.html)  
 
 --------------------------------------------------------
