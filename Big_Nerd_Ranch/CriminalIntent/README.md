@@ -19,6 +19,8 @@ CriminalIntent는 'Office Crimes'를 기록하기 위한 프로젝트입니다.
 * [ ] Deleting Crimes
 * [ ] ShareCompat
 * [ ] Another Implicit Intent
+* [ ] Detail Display
+* [ ] Efficient Thumbnail Load
 
 --------------------------------------------------------
 
@@ -524,5 +526,38 @@ CriminalIntent는 'Office Crimes'를 기록하기 위한 프로젝트입니다.
 > [Content Provider 관련 자료](https://developer.android.com/guide/topics/providers/content-providers.html)  
 > [Contacts Provider 관련 자료](https://developer.android.com/guide/topics/providers/contacts-provider.html)  
 > [PackageManager 관련 자료](https://developer.android.com/reference/android/content/pm/PackageManager.html)  
+
+--------------------------------------------------------
+
+### Ch16 Taking Pictures with Intents
+
+* A place for Your Photo
+* File Storage
+    * Using FileProvider
+    * Designating a picture location
+* Using a Camera Intent
+    * Firing the intent
+* Scaling and Displaying Bitmaps
+* Declaring Features
+
+#### 주요 개념
+
+* **ContentProvider**
+    * To expose content URIs to other apps
+  
+* **MediaStore** class
+    * The public interfaces used in Android for interacting with common media
+  
+#### 참고 자료
+
+> [File 관련 자료](https://developer.android.com/reference/java/io/File.html)  
+> [Files Practice 관련 자료](https://developer.android.com/training/basics/data-storage/files.html)  
+> [Content Provider 관련 자료](https://developer.android.com/guide/topics/providers/content-providers.html)  
+> [FileProvider 관련 자료](https://developer.android.com/reference/android/support/v4/content/FileProvider.html)  
+> [MediaStore 관련 자료](https://developer.android.com/reference/android/provider/MediaStore.html)  
+> [Bitmap 관련 자료](https://developer.android.com/reference/android/graphics/Bitmap.html)  
+> [BitmapFactory 관련 자료](https://developer.android.com/reference/android/graphics/BitmapFactory.html)  
+> [Managing Bitmap 관련 자료](https://developer.android.com/topic/performance/graphics/manage-memory.html)  
+> [Declaring Feature 관련 자료](https://developer.android.com/guide/topics/manifest/uses-feature-element.html)  
 
 --------------------------------------------------------
