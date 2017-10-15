@@ -21,6 +21,7 @@ CriminalIntent는 'Office Crimes'를 기록하기 위한 프로젝트입니다.
 * [ ] Another Implicit Intent
 * [ ] Detail Display
 * [ ] Efficient Thumbnail Load
+* [ ] Adding Swipe to Dismiss
 
 --------------------------------------------------------
 
@@ -559,5 +560,28 @@ CriminalIntent는 'Office Crimes'를 기록하기 위한 프로젝트입니다.
 > [BitmapFactory 관련 자료](https://developer.android.com/reference/android/graphics/BitmapFactory.html)  
 > [Managing Bitmap 관련 자료](https://developer.android.com/topic/performance/graphics/manage-memory.html)  
 > [Declaring Feature 관련 자료](https://developer.android.com/guide/topics/manifest/uses-feature-element.html)  
+
+--------------------------------------------------------
+
+### Ch17 Two-Pane Master-Detail Interfaces
+
+* Adding Layout Flexibility
+    * Modifying SingleFragmentActivity
+    * Creating a layout with two fragment containers
+    * Using an alias resource
+    * Creating tablet alternatives
+* Activity: Fragment Boss
+    * Fragment callback interfaces
+* For the More Curious: More on Determining Device Size
+
+#### 주요 개념
+
+* 
+    * 
+  
+#### 참고 자료
+
+> [Flexible UI Practice 관련 자료](https://developer.android.com/training/basics/fragments/fragment-ui.html)  
+> 
 
 --------------------------------------------------------
