@@ -576,12 +576,14 @@ CriminalIntent는 'Office Crimes'를 기록하기 위한 프로젝트입니다.
 
 #### 주요 개념
 
-* 
-    * 
+* alias resource
+    * a resource that points to another resource
+    * *refs.xml* in *res/values*
   
 #### 참고 자료
 
 > [Flexible UI Practice 관련 자료](https://developer.android.com/training/basics/fragments/fragment-ui.html)  
+> [Resource 관련 자료](https://developer.android.com/guide/topics/resources/providing-resources.html)  
 > 
 
 --------------------------------------------------------
