@@ -22,8 +22,6 @@ public class CrimeLab {
     private Context mContext;
     private SQLiteDatabase mDatabase;
 
-    private List<Crime> mCrimes;
-
     public static CrimeLab get(Context context) {
         if (sCrimeLab == null) {
             sCrimeLab = new CrimeLab(context);
