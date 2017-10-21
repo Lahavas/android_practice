@@ -572,6 +572,8 @@ CriminalIntent는 'Office Crimes'를 기록하기 위한 프로젝트입니다.
     * Creating tablet alternatives
 * Activity: Fragment Boss
     * Fragment callback interfaces
+        * Implementing CrimeListFragment.Callbacks
+        * Implementing CrimeFragment.Callbacks
 * For the More Curious: More on Determining Device Size
 
 #### 주요 개념
@@ -580,10 +582,16 @@ CriminalIntent는 'Office Crimes'를 기록하기 위한 프로젝트입니다.
     * a resource that points to another resource
     * *refs.xml* in *res/values*
   
+* **Callback** interface
+    * To delegate functionality back to the hosting activity, a fragment defines a callback interface
+    * **onAttach(Context)**
+        * Called when a fragment is attached to an activity
+    * **onDetach()**
+        * Called when a fragment is detached to an activity
+  
 #### 참고 자료
 
 > [Flexible UI Practice 관련 자료](https://developer.android.com/training/basics/fragments/fragment-ui.html)  
 > [Resource 관련 자료](https://developer.android.com/guide/topics/resources/providing-resources.html)  
-> 
 
 --------------------------------------------------------
